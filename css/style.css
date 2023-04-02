@@ -8,12 +8,12 @@ body {
 
 .players {
     position: relative;
-    margin: 10px auto ;
-    width: 200px;
+    margin: 10px auto;
+    width: 450px;
     color: #F8FCFF;
     display: flex;
-    justify-content: center;
-    border: 2px solid #F8FCFF;
+    flex-direction: column;
+    align-items: center;
 }
 
 .players_list th {
@@ -149,6 +149,13 @@ body {
 
 }
 
+.reset_btn,.reset_win{
+    padding: 5px 30px;
+    background-color: #03103E;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
 @media screen and (max-width: 1024px) {
 
     .game_style{
@@ -158,6 +165,10 @@ body {
     .block{
         width: 100px;
         height: 100px;
+    }
+
+    .players{
+        width: 300px;
     }
 
 }

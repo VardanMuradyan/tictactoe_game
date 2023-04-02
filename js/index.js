@@ -116,5 +116,13 @@ document.getElementById("game").addEventListener("click", function (event) {
 })
 
 
+document.querySelector(".reset_btn").addEventListener('click', function Reset() {
+    location.reload();
+    document.querySelector(".block").innerText = "";
+
+})
+
+
+
 
 
