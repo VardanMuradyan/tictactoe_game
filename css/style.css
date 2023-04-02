@@ -149,25 +149,54 @@ body {
 
 }
 
-.reset_btn,.reset_win{
+.reset_btn, .reset_win {
     padding: 5px 30px;
     background-color: #03103E;
     color: rgb(255, 255, 255);
     border-radius: 10px;
 }
 
+.play {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Sylfaen, cursive;
+}
+
+.play_1,.count_1 {
+    text-shadow: 1px 1px 10px rgb(255, 13, 52);
+}
+
+.play_2,.count_2 {
+    color: #F8FCFF;
+    text-shadow: 0 0 14px #1991EE;
+}
+
+.players_list th {
+    padding: 10px;
+    font-family: cursive;
+}
+
+.players_list td {
+    font-size: 20px;
+    padding: 10px;
+    color: lavender;
+    font-weight: 700;
+}
+
 @media screen and (max-width: 1024px) {
 
-    .game_style{
+    .game_style {
         width: 300px;
         height: 300px;
     }
-    .block{
+
+    .block {
         width: 100px;
         height: 100px;
+        font-size: 70px;
     }
 
-    .players{
+    .players {
         width: 300px;
     }
 
