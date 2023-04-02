@@ -146,4 +146,18 @@ body {
 .block:last-child {
     border-right: 0;
     border-bottom: 0;
+
+}
+
+@media screen and (max-width: 1024px) {
+
+    .game_style{
+        width: 300px;
+        height: 300px;
+    }
+    .block{
+        width: 100px;
+        height: 100px;
+    }
+
 }
