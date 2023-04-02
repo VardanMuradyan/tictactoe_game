@@ -1,0 +1,149 @@
+@import "reset.css";
+
+
+body {
+    background: #03103E;
+}
+
+
+.players {
+    position: relative;
+    margin: 10px auto ;
+    width: 200px;
+    color: #F8FCFF;
+    display: flex;
+    justify-content: center;
+    border: 2px solid #F8FCFF;
+}
+
+.players_list th {
+    padding: 10px;
+}
+
+.players_list td {
+    padding: 10px;
+}
+
+
+.game_style {
+    position: absolute;
+    top: 100%;
+    z-index: 100;
+    /*transform: translate(-50%, -50%);*/
+    width: 450px;
+    height: 450px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.block {
+    position: relative;
+    display: flex;
+    width: 150px;
+    height: 150px;
+    font-size: 120px;
+    color: red;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    box-shadow: 20px 38px 60px black;
+    cursor: pointer;
+    transition: box-shadow 280ms ease-out;
+}
+
+.player1 {
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 20px rgb(255, 13, 52);
+    transition: box-shadow 300ms linear;
+}
+
+.active_1 {
+    transform: rotate(-45deg);
+    content: "";
+    position: absolute;
+    width: 144%;
+    height: 4px;
+    background-color: red;
+}
+
+.active_1 {
+    transform: rotate(90deg);
+    content: "";
+    position: absolute;
+    width: 144%;
+    height: 4px;
+    background-color: red;
+}
+
+.player1:hover {
+    text-shadow: 1px 1px 10px rgb(255, 13, 52);
+}
+
+.player2 {
+    color: #F8FCFF;
+    text-shadow: 0 0 28px #1991EE;
+    transition: box-shadow 300ms linear;
+}
+
+.player2:hover {
+    color: #F8FCFF;
+    text-shadow: 0 0 14px #1991EE;
+}
+
+.block:hover:first-child {
+    box-shadow: 0 0 30px black;
+}
+
+.block:hover:nth-child(2) {
+    box-shadow: 0 0 30px black;
+}
+
+.block:hover:nth-child(3) {
+    box-shadow: 0 0 30px black;
+}
+
+.block:hover:nth-child(4) {
+    box-shadow: 0 0 30px black;
+}
+
+.block:hover:nth-child(5) {
+    box-shadow: 0 0 30px black;
+}
+
+.block:hover:nth-child(6) {
+    box-shadow: 0 0 30px black;
+}
+
+.block:hover:nth-child(7) {
+    box-shadow: 0 0 30px black;
+}
+
+.block:hover:nth-child(8) {
+    box-shadow: 0 0 30px black;
+}
+
+.block:hover:nth-child(9) {
+    box-shadow: 0 0 30px black;
+}
+
+.block:nth-child(3) {
+    border-right: 0;
+}
+
+.block:nth-child(6) {
+    border-right: 0;
+}
+
+.block:nth-child(7) {
+    border-bottom: 0;
+}
+
+.block:nth-child(8) {
+    border-bottom: 0;
+}
+
+.block:last-child {
+    border-right: 0;
+    border-bottom: 0;
+}
