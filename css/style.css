@@ -53,6 +53,7 @@ body {
 }
 
 .player1 {
+    font-size: 120px;
     color: rgb(255, 255, 255);
     text-shadow: 1px 1px 20px rgb(255, 13, 52);
     transition: box-shadow 300ms linear;
@@ -81,6 +82,7 @@ body {
 }
 
 .player2 {
+    font-size: 120px;
     color: #F8FCFF;
     text-shadow: 0 0 28px #1991EE;
     transition: box-shadow 300ms linear;
@@ -162,11 +164,11 @@ body {
     font-family: Sylfaen, cursive;
 }
 
-.play_1,.count_1 {
+.play_1, .count_1 {
     text-shadow: 1px 1px 10px rgb(255, 13, 52);
 }
 
-.play_2,.count_2 {
+.play_2, .count_2 {
     color: #F8FCFF;
     text-shadow: 0 0 14px #1991EE;
 }
@@ -193,6 +195,13 @@ body {
     .block {
         width: 100px;
         height: 100px;
+    }
+
+    .player1 {
+        font-size: 70px;
+    }
+
+    .player1 {
         font-size: 70px;
     }
 
